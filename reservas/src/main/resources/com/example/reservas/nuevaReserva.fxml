@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reservas.NuevaReservaController" spacing="10">
+    <Label text="Añadir Nueva Reserva" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+    <Label text="Cliente:" />
+    <ChoiceBox fx:id="clienteChoiceBox" />
+    <Label text="Habitación:" />
+    <ChoiceBox fx:id="habitacionChoiceBox" onAction="#handleHabitacionChange"/>
+    <Label fx:id="precioHabitacionLabel" text="Precio por noche: " />
+    <Label text="Fecha de Reserva:" />
+    <DatePicker fx:id="fechaReservaField" promptText="Fecha Reserva" />
+    <Label text="Fecha de Ingreso:" />
+    <DatePicker fx:id="fechaIngresoField" promptText="Fecha Ingreso" onAction="#handleFechaIngresoChange"/>
+    <Label text="Fecha de Salida:" />
+    <DatePicker fx:id="fechaSalidaField" promptText="Fecha Salida" onAction="#handleFechaSalidaChange"/>
+    <Label text="Costo Total:" />
+    <TextField fx:id="costoTotalField" promptText="Costo Total" />
+    <Label text="Observación:" />
+    <TextField fx:id="observacionField" promptText="Observación" />
+    <Label text="Estado:" />
+    <ChoiceBox fx:id="estadoField" />
+    <Label text="Tipo de Reserva:" />
+    <ChoiceBox fx:id="tipoReservaField" />
+    <Button text="Guardar" onAction="#handleGuardarReserva" />
+</VBox>
+
+
+
+
+
+
+
+
+
+

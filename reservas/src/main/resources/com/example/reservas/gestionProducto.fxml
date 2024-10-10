@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reservas.GestionProductosController" spacing="10">
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn fx:id="colIdProducto" text="ID Producto" />
+            <TableColumn fx:id="colNombre" text="Nombre" />
+            <TableColumn fx:id="colDescripcion" text="Descripción" />
+            <TableColumn fx:id="colPrecioVenta" text="Precio de Venta" />
+            <TableColumn fx:id="colUnidadMedida" text="Unidad de Medida" />
+        </columns>
+    </TableView>
+    <Button text="Editar Producto" onAction="#handleEditarProducto" />
+</VBox>
+
+

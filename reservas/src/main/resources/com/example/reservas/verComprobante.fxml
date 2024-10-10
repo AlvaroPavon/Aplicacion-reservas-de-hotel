@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reservas.VerComprobanteController" spacing="10">
+    <Label text="Comprobante" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+    <Label fx:id="idComprobanteLabel" text="ID Comprobante: " />
+    <Label fx:id="idReservaLabel" text="ID Reserva: " />
+    <Label fx:id="tipoComprobanteLabel" text="Tipo Comprobante: " />
+    <Label fx:id="numComprobanteLabel" text="Número Comprobante: " />
+    <Label fx:id="igvLabel" text="IGV: " />
+    <Label fx:id="costoConsumoLabel" text="Costo Consumo: " />
+    <Label fx:id="costoReservaLabel" text="Costo Reserva: " />
+    <Label fx:id="fechaEmisionLabel" text="Fecha Emisión: " />
+    <Label fx:id="fechaPagoLabel" text="Fecha Pago: " />
+    <Label fx:id="estadoLabel" text="Estado: " />
+</VBox>
+
+

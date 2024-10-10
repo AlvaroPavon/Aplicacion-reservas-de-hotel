@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reservas.VerComprobantesController" spacing="10">
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn fx:id="colIdComprobante" text="ID Comprobante" />
+            <TableColumn fx:id="colIdReserva" text="ID Reserva" />
+            <TableColumn fx:id="colTipoComprobante" text="Tipo Comprobante" />
+            <TableColumn fx:id="colNumComprobante" text="Número Comprobante" />
+            <TableColumn fx:id="colIgv" text="IGV" />
+            <TableColumn fx:id="colCostoConsumo" text="Costo Consumo" />
+            <TableColumn fx:id="colCostoReserva" text="Costo Reserva" />
+            <TableColumn fx:id="colFechaEmision" text="Fecha Emisión" />
+            <TableColumn fx:id="colFechaPago" text="Fecha Pago" />
+            <TableColumn fx:id="colEstado" text="Estado" />
+        </columns>
+    </TableView>
+    <Button text="Ver Comprobante" onAction="#handleVerComprobante" />
+</VBox>
+
+
+
+
+
+
+
