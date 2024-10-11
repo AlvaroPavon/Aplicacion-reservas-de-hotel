@@ -2,7 +2,7 @@ package com.example.reservas;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-
+/*Realizado por Alvaro Pavon Martinez */
 public class VerComprobanteController {
     @FXML
     private Label idComprobanteLabel;

@@ -1,5 +1,5 @@
 package com.example.reservas;
-
+/*Realizado por Alvaro Pavon Martinez */
 public class Habitacion {
     private int idhabitacion;
     private String numero;

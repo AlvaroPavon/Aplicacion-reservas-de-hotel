@@ -58,7 +58,7 @@ public class GestionReservasController {
     public ObservableList<Reserva> getReservas() {
         return reservas;
     }
-
+    /*Realizado por Alvaro Pavon Martinez */
     @FXML
     private void agregarReserva() {
         try {

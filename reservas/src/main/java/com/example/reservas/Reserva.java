@@ -1,7 +1,7 @@
 package com.example.reservas;
 
 import java.time.LocalDate;
-
+/*Realizado por Alvaro Pavon Martinez */
 public class Reserva {
     private int idreserva;
     private int idhabitacion;

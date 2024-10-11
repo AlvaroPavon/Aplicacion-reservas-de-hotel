@@ -1,4 +1,4 @@
-package com.example.reservas;
+package com.example.reservas;/*Realizado por Alvaro Pavon Martinez */
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -107,6 +107,7 @@ public class ClienteDAO {
             pstmt.executeUpdate();
         }
     }
+    /*Realizado por Alvaro Pavon Martinez */
     public Cliente getClienteById(int idpersona) throws SQLException {
         String query = "SELECT persona.idpersona, persona.nombre, persona.apaterno, persona.amaterno, persona.tipo_documento, persona.numero_documento, persona.direccion, persona.telefono, persona.email, persona.estado, cliente.codigo_cliente FROM persona INNER JOIN cliente ON persona.idpersona = cliente.idpersona WHERE persona.idpersona = ?";
         Cliente cliente = null;
@@ -136,3 +137,19 @@ public class ClienteDAO {
     }
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Realizado por Alvaro Pavon Martinez */

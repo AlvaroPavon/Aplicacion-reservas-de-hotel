@@ -11,7 +11,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
-
+/*Realizado por Alvaro Pavon Martinez */
 import java.io.IOException;
 import java.sql.SQLException;
 

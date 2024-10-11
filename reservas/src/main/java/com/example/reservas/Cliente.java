@@ -1,4 +1,4 @@
-package com.example.reservas;
+package com.example.reservas;/*Realizado por Alvaro Pavon Martinez */
 
 public class Cliente {
     private int idpersona;
@@ -121,3 +121,45 @@ public class Cliente {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Realizado por Alvaro Pavon Martinez */

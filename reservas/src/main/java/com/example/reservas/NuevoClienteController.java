@@ -6,7 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.sql.SQLException;
-
+/*Realizado por Alvaro Pavon Martinez */
 public class NuevoClienteController {
     @FXML
     private TextField nombreField;

@@ -1,4 +1,4 @@
-package com.example.reservas;
+package com.example.reservas;/*Realizado por Alvaro Pavon Martinez */
 
 import java.time.LocalDate;
 
@@ -91,7 +91,7 @@ public class Comprobante {
     public void setFechaEmision(LocalDate fechaEmision) {
         this.fechaEmision = fechaEmision;
     }
-
+    /*Realizado por Alvaro Pavon Martinez */
     public LocalDate getFechaPago() {
         return fechaPago;
     }
@@ -108,4 +108,17 @@ public class Comprobante {
         this.estado = estado;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Realizado por Alvaro Pavon Martinez */
 

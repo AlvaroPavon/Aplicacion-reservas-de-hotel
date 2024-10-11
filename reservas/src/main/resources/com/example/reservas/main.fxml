@@ -19,7 +19,6 @@
     <Button text="Gestionar Clientes" onAction="#handleGestionarClientes" />
     <Button text="Gestionar Habitaciones" onAction="#handleGestionarHabitaciones" />
     <Button text="Gestionar Reservas" onAction="#handleGestionarReservas" />
-    <Button text="Gestionar Productos" onAction="#handleGestionarProductos" />
     <Button text="Ver Comprobantes" onAction="#handleVerComprobantes" />
 </VBox>
 

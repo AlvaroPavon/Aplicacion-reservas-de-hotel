@@ -38,7 +38,7 @@ public class VerComprobantesController {
     private TableColumn<Comprobante, LocalDate> colFechaPago;
     @FXML
     private TableColumn<Comprobante, String> colEstado;
-
+    /*Realizado por Alvaro Pavon Martinez */
     private ObservableList<Comprobante> comprobantes;
 
     @FXML

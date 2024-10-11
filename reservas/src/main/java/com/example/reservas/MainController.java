@@ -130,10 +130,6 @@ public class MainController {
         cargarVista("/com/example/reservas/verComprobantes.fxml", "Ver Comprobantes");
     }
 
-    @FXML
-    private void handleGestionarProductos() {
-        cargarVista("/com/example/reservas/gestionProducto.fxml", "Gestión de Productos");
-    }
 
     private void cargarVista(String fxmlFile, String title) {
         try {

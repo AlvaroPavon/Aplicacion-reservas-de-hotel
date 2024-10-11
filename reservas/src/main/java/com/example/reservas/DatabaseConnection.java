@@ -1,5 +1,5 @@
 package com.example.reservas;
-
+/*Realizado por Alvaro Pavon Martinez */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

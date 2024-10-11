@@ -95,7 +95,7 @@ public class GestionHabitacionesController {
         }
     }
 
-
+    /*Realizado por Alvaro Pavon Martinez */
 
     @FXML
     private void editarHabitacion() {

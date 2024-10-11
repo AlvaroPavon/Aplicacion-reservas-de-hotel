@@ -31,7 +31,7 @@ public class ReservaDAO {
         }
         return reservas;
     }
-
+    /*Realizado por Alvaro Pavon Martinez */
     public void addReserva(Reserva reserva) throws SQLException {
         String query = "INSERT INTO reserva (idhabitacion, idcliente, tipo_reserva, fecha_reserva, fecha_ingreso, fecha_salida, costo_total, observacion, estado) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 

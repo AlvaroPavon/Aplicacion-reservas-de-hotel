@@ -35,7 +35,7 @@ public class HabitacionDAO {
 
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(query)) {
-
+            /*Realizado por Alvaro Pavon Martinez */
             pstmt.setString(1, habitacion.getNumero());
             pstmt.setString(2, habitacion.getPiso());
             pstmt.setString(3, habitacion.getDescripcion());

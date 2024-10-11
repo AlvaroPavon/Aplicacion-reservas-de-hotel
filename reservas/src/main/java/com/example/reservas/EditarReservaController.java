@@ -8,7 +8,7 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
+/*Realizado por Alvaro Pavon Martinez */
 import java.sql.SQLException;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
